@@ -39,6 +39,67 @@ The application has been audited and tuned to satisfy strict performance and acc
 
 ---
 
+## 📁 Component-Level System Documentation
+
+This documentation breakdown matches the structural design sheets of the platform architecture, outlining the objectives, features, technical implementation details, and future directions for each system component:
+
+### 4. Skill Roadmaps
+*   **Overview**: Provides structured, role-specific learning pathways charting chronological checkpoints.
+*   **Objectives**:
+    *   Guide candidate skill acquisition dynamically.
+    *   Show chronological and sequential resource roadmaps.
+    *   Recommend specific, verified external learning assets.
+    *   Improve career and study pathway planning.
+*   **Features Demonstrated**: Interactive horizontal tab filters, linear progress timelines, curated tutorial links, and step-by-step milestone badges.
+*   **Technical Implementation**: Timeline layouts utilizing responsive flex columns and custom dot indicators connected to tab viewport selectors.
+*   **Future Improvements**: Track individual user learning progress using account sessions and database states.
+
+### 5. Resume Hub & Interview Prep
+*   **Overview**: Facilitates ATS-friendly resume generation and interview readiness.
+*   **Objectives**:
+    *   Provide expert guidance on resume building.
+    *   Equip users with robust interview preparation structures.
+    *   Increase overall candidate employability metrics.
+    *   Provide actionable, structured HR and technical tips.
+*   **Features Demonstrated**: Google Docs-style inline canvas editor, dynamic role templates, customizable work/project blocks, collapsible Q&A accordions, and framework guide tabs (STAR model).
+*   **Technical Implementation**: Fully editable document nodes (`contenteditable`), print media layout sheets (`@media print` overrides), custom state templates, and responsive flex components.
+*   **Future Improvements**: Connect resume documents to AI feedback microservices for real-time rating assessments.
+
+### 6. Testimonials (Student Reviews)
+*   **Overview**: Displays authentic student success reviews and rating scores.
+*   **Objectives**:
+    *   Increase platform trust and validation indices.
+    *   Show visual social proof of candidate placements.
+    *   Improve academic and career guide credibility.
+    *   Organize and display detailed user feedback.
+*   **Features Demonstrated**: Flipkart/Amazon-style reviews layout, verified student indicator checkmarks, rating distribution histograms, and interactive helpful feedback votes.
+*   **Technical Implementation**: Reusable review card elements and progress-bar grids next to a sticky rating summary sidebar.
+*   **Future Improvements**: Build database API connections to sync live student review submissions dynamically.
+
+### 7. FAQs & Contact
+*   **Overview**: Answers standard user inquiries and supplies quick contact submission channels.
+*   **Objectives**:
+    *   Resolve generic visitor questions instantly.
+    *   Enable clean channels for business communication.
+    *   Improve platform support and user help pathways.
+    *   Increase system usability and contact conversions.
+*   **Features Demonstrated**: Collapsible FAQ accordion cards, interactive contact forms, social follow shortcuts, and integrated map embeds.
+*   **Technical Implementation**: Responsive HTML forms, JavaScript accordion handlers, and search-query Google Maps embeds (`iframe`).
+*   **Future Improvements**: Integrate backend mailing libraries (e.g. NodeMailer) to send messages to admin dashboards.
+
+### 8. Footer
+*   **Overview**: Supplies persistent utility navigation links, newsletter signup, and copyright disclosures.
+*   **Objectives**:
+    *   Improve sitewide navigation and footer indexing.
+    *   Display official copyright and branding declarations.
+    *   Provide direct links to platform terms and privacy pages.
+    *   Enable direct email marketing list signups.
+*   **Features Demonstrated**: Footer link groups, newsletter form validations, social SVGs, and responsive copyright columns.
+*   **Technical Implementation**: Responsive footer layout utilizing CSS Flexbox with column wrapping.
+*   **Future Improvements**: Connect email submissions to Mailchimp or backend newsletter databases.
+
+---
+
 ## 🛠️ Technology Stack
 
 *   **Structure**: Semantic HTML5 markup
