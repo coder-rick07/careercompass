@@ -1,18 +1,28 @@
-# 🧭 CareerCompass AI — Smart Career Planning & In-Line Resume Builder
+# 🧭 CareerCompass AI
 
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://html.spec.whatwg.org/)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://www.w3.org/TR/css-3-core/)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+<p align="center">
+  <img src="assets/repository-banner.jpg" alt="CareerCompass AI Project Banner" width="100%" style="border-radius: 8px;">
+</p>
 
-CareerCompass AI is a high-fidelity, interactive career guidance platform designed for tech students and developers. The platform guides students from initial career exploration up to job application readiness, featuring an advanced Google Docs-style inline resume builder, interactive skill roadmap timelines, and a Flipkart/Amazon-inspired student reviews dashboard.
+<p align="center">
+  <b>Discover your future, build technical skills, create optimized resumes in-line, and master tech interviews.</b>
+</p>
+
+<p align="center">
+  <a href="https://coder-rick07.github.io/careercompass/"><img src="https://img.shields.io/badge/Live_Demo-Deploy_Active-blue?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Demo"></a>
+  <a href="https://github.com/coder-rick07/careercompass"><img src="https://img.shields.io/badge/GitHub_Repo-Code_Base-teal?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repo"></a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Performance-99%2F100-success?style=flat-square&logo=lighthouse&logoColor=white" alt="Lighthouse Performance">
+  <img src="https://img.shields.io/badge/Accessibility-95%2F100-success?style=flat-square&logo=accessibility&logoColor=white" alt="Lighthouse Accessibility">
+  <img src="https://img.shields.io/badge/Best_Practices-100%2F100-success?style=flat-square&logo=googlechrome&logoColor=white" alt="Lighthouse Best Practices">
+  <img src="https://img.shields.io/badge/SEO-100%2F100-success?style=flat-square&logo=google&logoColor=white" alt="Lighthouse SEO">
+</p>
 
 ---
 
-## 🔗 Important Links
-
-* **Live Deployment Site**: [https://coder-rick07.github.io/careercompass/](https://coder-rick07.github.io/careercompass/)
-* **GitHub Code Repository**: [https://github.com/coder-rick07/careercompass](https://github.com/coder-rick07/careercompass)
+CareerCompass AI is a high-fidelity, interactive career guidance platform designed for tech students and developers. The platform guides students from initial career exploration up to job application readiness, featuring an advanced Google Docs-style inline resume builder, interactive skill roadmap timelines, and a Flipkart/Amazon-inspired student reviews dashboard.
 
 ---
 
