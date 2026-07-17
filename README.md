@@ -41,7 +41,39 @@ The application has been audited and tuned to satisfy strict performance and acc
 
 ## 📁 Component-Level System Documentation
 
-This documentation breakdown matches the structural design sheets of the platform architecture, outlining the objectives, features, technical implementation details, and future directions for each system component:
+This documentation breakdown matches the structural design sheets of the platform architecture, outlining the objectives, features, technical implementation details, and future directions for all 8 system components:
+
+### 1. Header
+*   **Overview**: Provides sitewide platform branding, navigation menus, and call-to-action shortcuts.
+*   **Objectives**:
+    *   Enable clear, persistent sitewide navigation.
+    *   Provide easy access to core platform sections.
+    *   Establish premium visual brand identity.
+    *   Support fully responsive mobile access drawer.
+*   **Features Demonstrated**: Adaptive links with active indicator states, SVG brand logo, main CTA button links, and mobile hamburger animations.
+*   **Technical Implementation**: Sticky-position wrapper styled with CSS Flexbox spacing and JavaScript classes to toggle mobile overlays.
+*   **Future Improvements**: Integrate notifications hub or active candidate profile dashboards.
+
+### 2. Hero Section
+*   **Overview**: Serves as the high-impact landing banner introducing the platform and core CTAs.
+*   **Objectives**:
+    *   Hook user attention immediately using premium visuals.
+    *   Clearly convey the platform value proposition (AI guidance).
+    *   Provide direct onboarding click triggers.
+    *   Establish platform authority with placement metrics.
+*   **Features Demonstrated**: Decorative ambient glow graphics, animated utility tags, high-priority CTA links, and floating credential cards (ATS approved, ₹12 LPA).
+*   **Technical Implementation**: Responsive CSS grid structures, keyframe animations, and prioritized loading parameters on preloaded LCP graphics.
+*   **Future Improvements**: Embed a live interactive search bar to query roles directly in the banner.
+
+### 3. Stats Section
+*   **Overview**: Highlights key platform impact metrics to demonstrate scale.
+*   **Objectives**:
+    *   Build student and recruiter trust using verified data.
+    *   Provide visual checkpoints of platform accomplishments.
+    *   Confirm platform authority and scope.
+*   **Features Demonstrated**: Live counting stats blocks and interactive grid layouts.
+*   **Technical Implementation**: IntersectionObserver API in JavaScript triggering dynamic numeric updates from 0 to target metrics upon scroll entry.
+*   **Future Improvements**: Connect metrics to active live database counters to update metrics in real-time.
 
 ### 4. Skill Roadmaps
 *   **Overview**: Provides structured, role-specific learning pathways charting chronological checkpoints.
